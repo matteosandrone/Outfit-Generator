@@ -1,0 +1,88 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.title{
+  background-color: #282c34;
+ color: white;
+ padding: 20px;
+ font-family: Comfortaa;
+ text-align: center;
+}
+
+.rules{
+ color: black;
+ padding: 5px;
+ font-family: Comfortaa;
+ font-size: 15px;
+ 
+}
+
+.bottom{
+   margin-top: 30px;
+ margin-bottom: 100px;
+ margin-right: 150px;
+ margin-left: 30px;
+ 
+}
+.top{
+   margin-top: 30px;
+ margin-bottom: 30px;
+ margin-right: 150px;
+ margin-left: 30px;
+
+}
+
+button {
+  background-color: white; /* Green */
+ font-size: 13px;
+ padding: 13px 28px;
+ color: Black;
+ font-family: Comfortaa;
+ border-radius: 12px;
+ 
+ 
+
+}
+
+.rand{ background-color: white; /* Green */
+ font-size: 13px;
+ padding: 13px 28px;
+ color: Black;
+ font-family: Comfortaa;
+ border-radius: 12px;}
